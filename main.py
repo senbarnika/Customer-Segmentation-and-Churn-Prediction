@@ -25,6 +25,17 @@ for col in df.columns:
         
 df = df.dropna()
 print("Total missing values are:", len(df))
+#To find the total number of unique values in each column
+print (df.nunique())
+#we can convert Dt_Customer into 3 columns i.e. day, month, year. 
+parts = df["Dt_Customer"].str.split("-", n=3, expand=True)
+df["day"] = parts[0].astype('int')
+df["month"] = parts[1].astype('int')
+df["year"] = parts[2].astype('int')
+#drop features like Z_CostContact, Z_Revenue, Dt_Customer.
+df.drop(['Z_CostContact', 'Z_Revenue', 'Dt_Customer'],
+        axis=1,
+        inplace=True)
 
 
 
