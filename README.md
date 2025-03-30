@@ -11,7 +11,7 @@ By clustering customers into distinct groups, businesses can tailor their market
 
 📂 _Project Structure_
 
-![image](https://github.com/user-attachments/assets/3288eb29-0362-4bc7-bba8-07712d9b1bf9)
+![image](https://github.com/user-attachments/assets/6222de83-93d1-42a3-8a5a-0a2fae66ab73)
 
 🛠️ _Technologies Used_
 
