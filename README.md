@@ -1,4 +1,4 @@
-_Customer Segmentation using Unsupervised Machine Learning in Python_
+_Customer Segmentation (for Banks) using Unsupervised Machine Learning in Python_
 
 📌 *Overview*
 
