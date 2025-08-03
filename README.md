@@ -50,7 +50,11 @@ Use filters, charts, and cluster views for advanced exploration </t>
 
 ### 📈 *Expected Output*
 
+
 ✅ Customer groups visualized based on their proximity in feature space </t>
+
+<img width="1536" height="1202" alt="image" src="https://github.com/user-attachments/assets/f98dc66f-f43d-4db4-96f6-40280851d786" />
+
 
 ✅ Cluster profiles identifying high-value vs. low-engagement segments </t>
 
