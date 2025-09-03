@@ -2,6 +2,8 @@
 
 This project leverages a hybrid machine learning approach to address two critical business challenges: customer segmentation and churn prediction. By first segmenting the customer base using unsupervised learning, we gain valuable insights into different customer behaviors. Subsequently, a supervised learning model is trained to predict which customers are most likely to churn, enabling proactive retention strategies.</br>
 
+</br>![shared 1](https://github.com/user-attachments/assets/13818685-3d22-4d92-8607-086d1c9e049d)</br>
+
 🎯 **Project Objectives**
 
 The primary goal of this project is to build an analytical framework that not only identifies at-risk customers but also explains the underlying factors driving churn. The two main objectives are:</br>
