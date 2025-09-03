@@ -9,16 +9,8 @@ This project leverages a hybrid machine learning approach to address two critica
 The primary goal of this project is to build an analytical framework that not only identifies at-risk customers but also explains the underlying factors driving churn. The two main objectives are:</br>
 
 Unsupervised Learning: To segment the customer base into distinct groups (clusters) based on their purchasing behavior and demographic data using the K-Means algorithm.</br>
+
 Supervised Learning: To develop a robust XGBoost model for predicting customer churn, providing a quantifiable risk assessment for each customer.</br>
-
-**Customer Segmentation and Churn Rate**
-
-| Cluster | Customer Count (n) | Actual Churn Rate | Insights |
-| :--- | :--- | :--- | :--- |
-| **0** | 1028 | 14.20% | A significant segment with a moderate churn risk. |
-| **1** | 219 | **18.26%** | **Highest churn rate.** This is a high-priority segment for retention efforts. |
-| **2** | 523 | 15.11% | A large segment with a churn rate slightly above the average. |
-| **3** | 464 | 14.87% | A substantial segment with a churn rate close to the overall average. |
 
 🛠️ **Data Engineering and Preprocessing**
 
@@ -66,6 +58,15 @@ ROC Curve: The ROC curve provides a visual representation of the model's diagnos
 A powerful aspect of this project is the integration of both unsupervised and supervised learning. By combining the predicted churn data with the customer segments, we can derive actionable business insights.</br>
 
 _Churn Rate by Customer Segment_: A bar chart was created to visualize the actual churn rate for each of the four customer segments.  This analysis reveals that Customer Segment 1 has the highest churn rate at 18.26%, highlighting it as a high-priority segment for targeted retention efforts.</br>
+
+**Customer Segmentation and Churn Rate**
+
+| Cluster | Customer Count (n) | Actual Churn Rate | Insights |
+| :--- | :--- | :--- | :--- |
+| **0** | 1028 | 14.20% | A significant segment with a moderate churn risk. |
+| **1** | 219 | **18.26%** | **Highest churn rate.** This is a high-priority segment for retention efforts. |
+| **2** | 523 | 15.11% | A large segment with a churn rate slightly above the average. |
+| **3** | 464 | 14.87% | A substantial segment with a churn rate close to the overall average. |
 
 🎨 **Power BI Dashboard for Business Intelligence**
 
